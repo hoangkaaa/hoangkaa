@@ -13,8 +13,22 @@
         }
         figure img{
             transform: translatex(100px) translatey(-30px);
+            filter: grayscale(100%);
 
         }
+        figure img {
+            background-color: #146d37;
+            transition-property: background-color;
+            transition-duration: 0.5s;
+            transition-timing-function: ease-out;
+            transition-delay: 0s;
+        }
+
+        figure img:hover {
+            background-color: #60b946;
+            width: 150%;    
+        }
+
     </style>
 </head>
 <body>
